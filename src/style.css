@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #F5F7FA;
+  color: #0F172A;
+}
+
+.dark body {
+  background-color: #0F172A;
+  color: #E2E8F0;
+}
+
+#app {
+  min-height: 100vh;
+}
